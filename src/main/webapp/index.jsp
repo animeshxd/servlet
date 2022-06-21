@@ -8,11 +8,6 @@
     <title>Servlet</title>
 </head>
 <body>
-    <form method="post" action="add">
-        1st Number: <input type="text" name="a"><br>
-        2nd Number: <input type="text" name="b">
-        <input type="submit">
-
-    </form>
+    
 </body>
 </html>
