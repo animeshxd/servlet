@@ -28,4 +28,14 @@
         <url-pattern>/add</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>result</servlet-name>
+        <servlet-class>example.Result</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>result</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+
 </web-app>
