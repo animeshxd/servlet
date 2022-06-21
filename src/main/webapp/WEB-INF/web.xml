@@ -7,5 +7,21 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
     <display-name>Archetype Created Web Application</display-name>
-    
+    <servlet>
+        <servlet-name>A</servlet-name>
+        <servlet-class>example.A</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>A</servlet-name>
+        <url-pattern>/a</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>B</servlet-name>
+        <servlet-class>example.B</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>B</servlet-name>
+        <url-pattern>/b</url-pattern>
+    </servlet-mapping>
 </web-app>

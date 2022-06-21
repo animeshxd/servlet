@@ -8,6 +8,7 @@
     <title>Servlet</title>
 </head>
 <body>
-    
+    <a href="a">A class</a><br>
+    <a href="b">B class</a>
 </body>
 </html>
