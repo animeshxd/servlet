@@ -9,8 +9,8 @@
 </head>
 <body>
     <form method="post" action="add">
-        1st Number: <input type="text" name="a">
-        2nd <input type="text" name="b">
+        1st Number: <input type="text" name="a"><br>
+        2nd Number: <input type="text" name="b">
         <input type="submit">
 
     </form>
