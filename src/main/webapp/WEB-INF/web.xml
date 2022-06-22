@@ -10,6 +10,10 @@
     <servlet>
         <servlet-name>A</servlet-name>
         <servlet-class>example.A</servlet-class>
+        <init-param>
+            <param-name>data</param-name>
+            <param-value>This data is only available for class A</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
@@ -19,6 +23,10 @@
     <servlet>
         <servlet-name>B</servlet-name>
         <servlet-class>example.B</servlet-class>
+        <init-param>
+            <param-name>data</param-name>
+            <param-value>This data is only available for class B</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>B</servlet-name>

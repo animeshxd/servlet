@@ -8,10 +8,7 @@
     <title>Servlet</title>
 </head>
 <body>
-    <form method="post" action="a">
-        <input type="text" name="x"><br>
-        <input type="text" name="y"><br>
-        <input type="submit">
-    </form>
+    <a href="a">A class</a><br>
+    <a href="b">B class</a>
 </body>
 </html>
