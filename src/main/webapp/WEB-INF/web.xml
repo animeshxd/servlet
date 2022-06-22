@@ -24,4 +24,9 @@
         <servlet-name>B</servlet-name>
         <url-pattern>/b</url-pattern>
     </servlet-mapping>
+
+    <context-param>
+        <param-name>data</param-name>
+        <param-value>This data is available for every user</param-value>
+    </context-param>
 </web-app>

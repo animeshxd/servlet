@@ -12,14 +12,10 @@ public class A extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int a = Integer.parseInt(req.getParameter("x"));
-        int b = Integer.parseInt(req.getParameter("y"));
-        int c = a + b;
         ServletContext context = req.getServletContext();
-        context.setAttribute("a", a);
-        context.setAttribute("b", b);
-        context.setAttribute("c", c);
-        resp.sendRedirect("b");
+        String data = context.getInitParameter("data");
+        resp.getWriter().println(data);
+               
     }
     
 }
