@@ -8,7 +8,43 @@
     <title>Servlet</title>
 </head>
 <body>
-    <a href="a">A class</a><br>
-    <a href="b">B class</a>
+
+	<%! //for declaration
+	public int add(int a, int b){
+		return a + b;
+	}
+	%>
+	
+	
+	<% 
+	int a = 1;
+	int b = 2;
+	int c = a + b;
+	out.println("the sum is " + c);
+	%> 
+	
+	<br>
+	The sum is <%= c %>
+	
+	<br>
+	add(a, b) = <%= add(a, b) %>
+	<br>
+	add(555, 555) = <%= add(555, 555) %>
+	<br>
+	<% 
+		for(int i = 0; i < 5; i++){
+			out.println("value -> " + i + "<br>");
+		}
+	%>
+	
+	<%
+	for(int i = 0; i < 5; i++) {
+	%>
+		Value -> <%= i %> <br>
+	<%
+	} 
+	%>
+	
+	
 </body>
 </html>
