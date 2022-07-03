@@ -9,5 +9,6 @@
 </head>
 <body>
 	The Date is : <%= new Date() %>
+	<%@ include file="uuid.jsp" %>
 </body>
 </html>
