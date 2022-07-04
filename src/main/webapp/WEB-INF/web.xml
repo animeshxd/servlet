@@ -7,5 +7,19 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
     <display-name>Archetype Created Web Application</display-name>
-    
+<servlet>
+	<servlet-name>page</servlet-name>
+	<jsp-file>/page.jsp</jsp-file>
+	<init-param>
+		<param-name>data</param-name>
+		<param-value>This data is from web.xml</param-value>
+	</init-param>
+	
+</servlet>
+<servlet-mapping>
+	<servlet-name>page</servlet-name>
+	<url-pattern>/page</url-pattern>
+</servlet-mapping>
+
+
 </web-app>

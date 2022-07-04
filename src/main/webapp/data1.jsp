@@ -60,7 +60,7 @@
 	<%-- request attribute data is <%= request.getAttribute("data") %> <br> --%>
 	REQUEST_SCOPE data is <%= pageContext.getAttribute("data", PageContext.REQUEST_SCOPE) %> <br>
 
-	<%-- ServletContext    data is <%= application.getAttribute("datax") %> <br> --%>
+	<%-- ServletContext    data is <%= application.getAttribute("data") %> <br> --%>
 	APPLICATION_SCOPE data is <%= pageContext.getAttribute("data", PageContext.APPLICATION_SCOPE) %> <br>
 	
 <%-- 	HttpSession       data is <%= session.getAttribute("data") %> <br> --%>
