@@ -10,7 +10,7 @@
 <%!
 public void jspInit(){
 	String data = getInitParameter("data");
-	ServletContext context = getServletContext();
+	ServletContext context = getServletConfig().getServletContext();
 	context.setAttribute("datafrompage", data);
 }
 %>
